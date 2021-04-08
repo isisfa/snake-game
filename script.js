@@ -11,6 +11,10 @@ snake[0] = {
 //direction definition
 let direction = "right";
 
+let food = {
+    x: Math.floor(Math.random() * 15 + 1) * box,
+    y: Math.floor(Math.random() * 15 + 1) * box
+}
 
 //Create background function
 function createBG() {
@@ -23,6 +27,12 @@ function createSnake() {
         context.fillStyle = "green";
         context.fillRect(snake[i].x, snake[i].y, box, box);
     }
+}
+
+//draw food
+function drawFood() {
+    context.fillStyle = "red";
+    context.fillRect(food.x, food.y, box, box);
 }
 
 //keyboard navigation game
@@ -43,6 +53,7 @@ function startGame () {
 
     createBG();
     createSnake();
+    drawFood();
 
     let snakeX = snake[0].x;
     let snakeY = snake[0].y;
