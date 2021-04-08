@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(56, 87, 56);
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(76, 241, 76);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#snake {
+    border-radius: 5px;
+    border: 1px dashed;
+}
