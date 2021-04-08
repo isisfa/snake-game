@@ -2,7 +2,7 @@
 
 
 ### DIO-snake-game
- #### Project with Rafael Galleani mentoring of Digital Innovation One (HTML Web Developer Bootcamp)
+ #### Project with Gabriela Pinheiro mentoring of Digital Innovation One (HTML Web Developer Bootcamp)
  ***
     The classic *snake game* in a simple way
     Using
